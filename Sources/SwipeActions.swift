@@ -371,10 +371,10 @@ public struct SwipeView<Label, LeadingActions, TrailingActions>: View where Labe
     @State var numberOfTrailingActions = 0
 
     /// Enable triggering the leading edge via a drag.
-    @State var swipeToTriggerLeadingEdge = false
+    @State var swipeToTriggerLeadingEdge = true
 
     /// Enable triggering the trailing edge via a drag.
-    @State var swipeToTriggerTrailingEdge = false
+    @State var swipeToTriggerTrailingEdge = true
 
     // MARK: - Gesture state
 
